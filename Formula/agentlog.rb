@@ -6,22 +6,22 @@ class Agentlog < Formula
   on_macos do
     on_arm do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-darwin-arm64.tar.gz"
-      sha256 "e3f815eaa3787ca72aced3eb22cd24c897fc0f97f7fd84a610021af91bf4ed9d"
+      sha256 "da1d9e01c410de893c9e1b59aa016721db912f0d0706aac4fff45f6b9cb95a8d"
     end
     on_intel do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-darwin-amd64.tar.gz"
-      sha256 "b528c92336b89d90d39d27f3a5e3f7f00cf25aa017c6387dd2edbd6a475e715c"
+      sha256 "33eceafb82efe4f6f43cc1fc9b888226a89d88e7216faa9bc1b8ca757966e37a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-linux-arm64.tar.gz"
-      sha256 "4c9795800215478e27f9915969c7d1cf0c98ea3d572159d61eea1c84262014c0"
+      sha256 "fd8c15e4b0f7ec68a5aa7fd092ce1f42496c5f5ea6e39c804aa44d94938bff0b"
     end
     on_intel do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-linux-amd64.tar.gz"
-      sha256 "362e38eff35030f083e449409e7ddd37f8d48cdee081e0a1d22672fe88096452"
+      sha256 "d09b4de60a922592177d996110115f5e645bcded2d6225c560a9e9b3d2b7afe7"
     end
   end
 
