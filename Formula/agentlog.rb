@@ -1,27 +1,27 @@
 class Agentlog < Formula
   desc "Local-first decision log daemon for agentic workflows"
   homepage "https://github.com/byronxlg/agentlog"
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-darwin-arm64.tar.gz"
-      sha256 "8804784957bbd13ba2fc47358586717488ebb9287ec4e4b39452c8420331e0e8"
+      sha256 "d3d94ea4762132b58fe2af077d34ef83a9a73908bc2c0063bafe136a18592360"
     end
     on_intel do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-darwin-amd64.tar.gz"
-      sha256 "5d8c5ffd03e72f5d5a2ac667199d237e9b29b3dc1371966e4ebd7786178bb1c6"
+      sha256 "a28bc672a17b4810b0398521b89bf3bf43de64a045049ff11272fa4e6d763ae6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-linux-arm64.tar.gz"
-      sha256 "3c5e8092299ff7832980de3cb64bb782dc03c62103665f4fe67af32f32dfa2ee"
+      sha256 "035251063d2e31c503a7bcfabe3446ebba6ada6b559d5a0ac7bbd79e017d5d86"
     end
     on_intel do
       url "https://github.com/byronxlg/agentlog/releases/download/v#{version}/agentlog-v#{version}-linux-amd64.tar.gz"
-      sha256 "13cc47144d7a23ecc3c225048f49a853ddd8a37a59812f75193fd223e44068f4"
+      sha256 "110a2d2c0039f494aba86a3aec070862cf887d343c9f9a3dfdba576befa38245"
     end
   end
 
